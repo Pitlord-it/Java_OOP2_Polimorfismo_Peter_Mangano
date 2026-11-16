@@ -1,3 +1,4 @@
+// classe astratta Person 
 public abstract class Person {
     public String name;
     public String surname;
