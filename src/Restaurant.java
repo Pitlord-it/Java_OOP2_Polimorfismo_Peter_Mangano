@@ -32,7 +32,7 @@ public class Restaurant {
     public void dishIngredients(String name) {
         for (Dish dish : this.dishes) {
             if (dish.getName().equalsIgnoreCase(name)) {
-                System.out.println("Gli ingredienti del piatto " + name + " sono: " + dish.getIngredients() + ".");
+                System.out.println("Gli ingredienti del piatto " + dish.getName() + " sono: " + dish.getIngredients() + ".");
                 return;
             }
         }
